@@ -1,0 +1,20 @@
+name: azure
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.7
+- mlflow
+- pip=20.1.1 # ruml issue
+- jupyter
+- jupyter_contrib_nbextensions
+- pandas
+- matplotlib
+- scikit-learn==0.22.1
+- numpy
+- py-xgboost<=0.90
+- pip:
+    - azureml-sdk
+    - azureml-automl-runtime
+    - azureml-train-automl-runtime
+    - azureml-widgets
