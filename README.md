@@ -19,7 +19,9 @@ dp100
 
 ## Contexte du projet
 
-Pour initialiser la préparation à la certification dp100.
+- Uploadez les données contenues dans le fichier titanic.csv dans un dataset référencé sur votre workspace
+- Utilisez le fichier titanic_training.py pour entrainer un modèle d'après ce dataset
+- Déployez votre solution 
 
 
 ## Modalités pédagogiques
