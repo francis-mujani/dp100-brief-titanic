@@ -35,6 +35,32 @@ Individuel en autonomie.
 - les données devront être uploadées dans un dataset référencé dans le workspace, elles seront lues depuis ce dataset (et pas directement dans le fichier csv)
 - le modèle produit sera enregistré dans un fichier pkl et référencé dans le workspace
 
+
+(depuis la plateforme azure)
+- connectez-vous dans votre workspace sur le studio azure
+- demarrez votre votre machine
+- ouvrez jupyter notebook et lancez un "new" terminal
+- clonez https://github.com/jtobelem-simplon/dp100-brief-titanic dans votre dossier
+- ouvrez le notebook titanic-azure.ipynb
+
+(depuis un environnement local)
+- clonez https://github.com/jtobelem-simplon/dp100-brief-titanic dans votre dossier
+- téléchargez dedans le fichier config.json depuis le portail azure
+- activez l'environnement "azure"
+- démarrez jupyter notebook dans cet environnement
+- ouvrez le notebook titanic-azure.ipynb
+
+---
+
+(suite pour tous)
+- vérifiez que les cellules de la partie "1 Configuration" fonctionnent
+- uploadez les données dans un tabular dataset et référencez (register) ce dataset dans votre workspace
+- créez un estimator qui prenne en "inputs" le dataset
+- exécutez cette estimator dans une expérience
+
+> sur la plateforme azure
+
+
 ## Modalités d'évaluation
 
 Sur votre poste en montrant à votre formateur votre niveau d'avancement sur les modules d'apprentissage.
