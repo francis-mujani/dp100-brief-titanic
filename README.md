@@ -63,3 +63,9 @@ Individuel en autonomie.
 ## Modalités d'évaluation
 
 Sur votre poste en montrant à votre formateur votre niveau d'avancement sur les modules d'apprentissage.
+
+## Pour aller plus loin
+
+Voila une utilisation intéressante du modèle de prédiction du titanic, on va utiliser un autre modèle pour analyser des photos (extraites du film titanic par exemple) qui va tagger les personnes présentes sur les photos afin de savoir si ce sont des hommes/femmes, jeunes/agées. Ces features vont être envoyées au modèle de prédiction pour savoir si les personnes taggées vont survire ou non!
+
+<https://github.com/retkowsky/WorkshopAML/blob/master/Appel%20mod%C3%A8le%20ML%20Titanic.ipynb>
