@@ -19,8 +19,8 @@ dp100
 
 ## Contexte du projet
 
-- Uploadez les données contenues dans le fichier titanic.csv dans un dataset référencé sur votre workspace
-- Utilisez le fichier titanic_training.py pour entrainer un modèle d'après ce dataset
+- Uploadez les données contenues dans le fichier [titanic.csv](https://github.com/jtobelem-simplon/dp100-brief-titanic/blob/master/data/titanic.csv?raw=true) dans un dataset référencé sur votre workspace
+- Utilisez le fichier [titanic_training.py](https://github.com/jtobelem-simplon/dp100-brief-titanic/blob/master/script/titanic_training.py?raw=true) pour entrainer un modèle d'après ce dataset
 - Déployez votre solution 
 
 
@@ -35,14 +35,14 @@ Individuel en autonomie.
 - demarrez votre votre machine
 - ouvrez jupyter notebook et lancez un "new" terminal
 - clonez https://github.com/jtobelem-simplon/dp100-brief-titanic dans votre dossier
-- ouvrez le notebook titanic-azure.ipynb
+- ouvrez le notebook [titanic-azure.ipynb](https://github.com/jtobelem-simplon/dp100-brief-titanic/blob/master/titanic-azure.ipynb)
 
 *(depuis un environnement local)*
 - clonez https://github.com/jtobelem-simplon/dp100-brief-titanic dans votre dossier
 - téléchargez dedans le fichier config.json depuis le portail azure
 - activez l'environnement "azure"
 - démarrez jupyter notebook dans cet environnement
-- ouvrez le notebook titanic-azure.ipynb
+- ouvrez le notebook [titanic-azure.ipynb](https://github.com/jtobelem-simplon/dp100-brief-titanic/blob/master/titanic-azure.ipynb)
 
 ---
 
