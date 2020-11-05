@@ -56,6 +56,8 @@ Individuel en autonomie.
 > sur la plateforme azure, observez les résultats du run
 
 - le modèle produit sera enregistré dans un fichier pkl et référencé dans le workspace
+- faites plusieurs run avec des models différents
+- déployez votre solution et faites un test avec postman
 
 
 ## Modalités d'évaluation
