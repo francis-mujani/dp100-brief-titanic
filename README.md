@@ -30,20 +30,14 @@ Individuel en autonomie.
 
 ## Critère de performance
 
-- script exécuté depuis un contexte d'expérience
-- l'accuracy et la mae (mean absolute error) seront loggés à chaque run
-- les données devront être uploadées dans un dataset référencé dans le workspace, elles seront lues depuis ce dataset (et pas directement dans le fichier csv)
-- le modèle produit sera enregistré dans un fichier pkl et référencé dans le workspace
-
-
-(depuis la plateforme azure)
+*(depuis la plateforme azure)*
 - connectez-vous dans votre workspace sur le studio azure
 - demarrez votre votre machine
 - ouvrez jupyter notebook et lancez un "new" terminal
 - clonez https://github.com/jtobelem-simplon/dp100-brief-titanic dans votre dossier
 - ouvrez le notebook titanic-azure.ipynb
 
-(depuis un environnement local)
+*(depuis un environnement local)*
 - clonez https://github.com/jtobelem-simplon/dp100-brief-titanic dans votre dossier
 - téléchargez dedans le fichier config.json depuis le portail azure
 - activez l'environnement "azure"
@@ -56,9 +50,12 @@ Individuel en autonomie.
 - vérifiez que les cellules de la partie "1 Configuration" fonctionnent
 - uploadez les données dans un tabular dataset et référencez (register) ce dataset dans votre workspace
 - créez un estimator qui prenne en "inputs" le dataset
+- l'accuracy et la mae (mean absolute error) seront loggés à chaque run
 - exécutez cette estimator dans une expérience
 
-> sur la plateforme azure
+> sur la plateforme azure, observez les résultats du run
+
+- le modèle produit sera enregistré dans un fichier pkl et référencé dans le workspace
 
 
 ## Modalités d'évaluation
