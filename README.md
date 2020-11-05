@@ -46,7 +46,7 @@ Individuel en autonomie.
 
 ---
 
-(suite pour tous)
+*(suite pour tous)*
 - vérifiez que les cellules de la partie "1 Configuration" fonctionnent
 - uploadez les données dans un tabular dataset et référencez (register) ce dataset dans votre workspace
 - créez un estimator qui prenne en "inputs" le dataset
